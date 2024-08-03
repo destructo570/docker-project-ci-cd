@@ -24,6 +24,6 @@ jobs:
                 file: ./docker/Dockerfile.userApp
                 push: true
                 tags: destructo570/docker-playground-project:latest
-                
+
             - name: Verify Pushed Image
-                run: docker pull destructo570/docker-playground-project:latest
+              run: docker pull destructo570/docker-playground-project:latest
